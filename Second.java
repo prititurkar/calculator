@@ -1,20 +1,35 @@
 import java.util.*;
+
+import javax.sql.rowset.spi.SyncResolver;
+
 public class Second {
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+    public static void main(String args[]) {
+        Scanner sc= new Scanner(System.in);
         System.out.println("Enter no.");
         int a = sc.nextInt();
+        char  num = sc.next().charAt(0);
         int b = sc.nextInt();
-        if (a==b){
-            System.out.println("no. is equal");
-        }else{
-            if(a>b){
-            System.out.println("a is gteater");
-        }else{
-           System.out.println("a is lesser");
-        }
-    }
+        
 
-    
-}
-}
+        if(num == '+'){
+            System.out.println(a+b);
+        }
+        else if(num == '-'){
+              System.out.println(a-b);
+        }
+        else if(num == '*'){
+            System.out.println(a*b);
+        }
+        else if(num == '/'){
+            System.out.println(a/b);
+
+        }
+        else if(num == '%'){
+            System.out.println(a%b);
+        }
+        else{
+            System.out.println("invalid no.");
+        }
+        }      
+              
+         }
