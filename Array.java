@@ -92,6 +92,7 @@
 // }
 
 
+
 /********************************* */
 
 // import java.util.*;
@@ -122,3 +123,169 @@
 
 //         }
 // }
+
+// public class Array{
+//     public static void main(String args[]){
+//         int num = 6;
+        
+        
+//         for(int i=1; i<=num; i++){
+//             for(int j=1; j<=i; j++){
+//                 if(j == 1 || j == i){
+//                     System.out.print("*");
+//                 }else{
+//                     System.out.print(" ");
+//                 }
+
+//             }
+//             for(int j=1; j<=2*(num-i+1); j++){
+//                 System.out.print(" ");
+//             }
+            
+//             for(int j=1; j<=i; j++){
+//                 if(j==1 || j==i){
+//                     System.out.print("*");
+
+//                 }else{
+//                     System.out.print(" ");
+//                 }
+
+//             }
+//             System.out.println();
+//         }
+
+//         for(int i=num; i>=1; i--){
+//             for(int j=1; j<=i; j++){
+//                 if(j == 1 || j == i){
+//                     System.out.print("*");
+//                 }else{
+//                     System.out.print(" ");
+//                 }
+
+//             }
+//             for(int j=1; j<=2*(num-i+1); j++){
+//                 System.out.print(" ");
+//             }
+
+//             for(int j=1; j<=i; j++){
+//                 if(j == 1 || j == i){
+//                     System.out.print("*");
+//                 }else{
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+//Sum of Array numbers
+
+// import java.util.*;
+// public class Array{
+// public static void main(String args[]){
+//     Scanner sc = new Scanner(System.in);
+//     int size = sc.nextInt();
+//     int[] num = new int[size];
+
+//     for(int i=0; i<size; i++){
+//         num[i]=sc.nextInt();
+//     }
+//     int sum = 0;
+//     for(int i=0; i<num.length; i++){
+//         sum = sum+num[i];
+//     }
+//     System.out.println(sum);
+// }
+// }
+//count even
+//even or odd;
+// import java.util.*;
+// public class Array{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int[] num = new int[size];
+
+//         for(int i=0; i<size; i++){
+//             num[i]=sc.nextInt();
+//         }
+//         int count = 0;
+//         for(int i=0; i<num.length; i++){
+//             if(num[i]%2==0){
+//                 count++;
+                // System.out.println(num[i]+" "+"num is even");
+            // }else{
+                // System.out.println(num[i]+" "+"num is odd");
+//             }
+//         }
+//         System.out.println(count);
+//     }
+// }
+
+
+// largest no.
+
+// import java.util.*;
+// public class Array{
+//     public static void main(String aargs[]){
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int[] num = new int[size];
+//         for(int i=0; i<size; i++){
+//             num[i]=sc.nextInt();
+
+//         }
+
+//         int max = num[0];
+//         for(int i=0; i<num.length; i++){
+//             if(num[i]>max){
+//                 max=num[i];
+
+//             }
+//         }
+//         System.out.println(max);
+//     }
+// }
+
+
+//Smallest no. 
+// import java.util.*;
+// public class Array{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int[] num = new int[size];
+//         for(int i=0; i<size; i++){
+//             num[i] = sc.nextInt();
+
+//         }
+
+//         int min = num[0];
+//          for(int i=0; i<num.length; i++){
+//             if(num[i]<min){
+//                 min=num[i];
+//             }
+//          }
+//          System.out.println(min);
+//     }
+// }
+
+//reverse Array
+import java.util.*;
+public class Array{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] num = new int[size];
+        for(int i=0; i<size; i++){
+            num[i]=sc.nextInt();
+
+        }
+
+        for(int i=size-1; i>=0; i--){
+            System.out.println(num[i]);
+
+        }
+    }
+}
